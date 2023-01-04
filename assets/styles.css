@@ -1,0 +1,70 @@
+.container{
+    display: flex;
+}
+.nav{
+    background-color: rgb(5, 107, 107);
+    height: 100vh;
+    padding-top: 150px;
+    width: 50%;
+}
+.start{
+    text-align:center;
+}
+.codeInput{
+    margin: 25px;
+    margin-top: 50px;
+}
+.navcenter{
+    text-align: center;
+}
+.header{
+    display: flex;
+}
+.companyName{
+    margin: auto 0;
+}
+#companyInfo{
+    margin-left: 20px;
+    text-align: left;
+}
+#description{
+    padding-inline:15px;
+    margin: 0;
+}
+
+#stockCodeInput{
+    width:15vw;
+}
+#stockCodeSubmitButton{
+    background-color: yellow;
+    border-color: grey;
+}
+#daysNumber{
+    width:15vw;
+}
+.datePicker{
+    margin: 20px;
+}
+
+.effectButton{
+    display: flex;
+    justify-content: space-evenly;
+    margin-inline: 50px;
+}
+#forcast{
+    margin-left: 10px;
+}
+.forcastDiv{
+    padding-inline: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+button{
+    background-color: rgb(202, 238, 144);
+    border-color: green;
+}
+input{
+    width: 25vw;
+    align-items: center;
+}
